@@ -32,7 +32,7 @@ if (start) {
 
         } else if (customNumber == winningNumber && attempt == 2) {
             winningSum += winningMax / 2
-            console.log(`Ви виграли ${winningMax/2}$. Наразі Ваш виграш ${winningSum}$.`);
+            console.log(`Ви виграли ${winningMax / 2}$. Наразі Ваш виграш ${winningSum}$.`);
             continueGame = confirm("Хочете продовжити гру?");
             if (continueGame) {
                 winningMax *= multiplier;
@@ -44,7 +44,7 @@ if (start) {
 
         } else if (customNumber == winningNumber && attempt == 1) {
             winningSum += winningMax / 5;
-            console.log(`Ви виграли ${winningMax/5}$. Наразі Ваш виграш ${winningSum}$.`);
+            console.log(`Ви виграли ${winningMax / 5}$. Наразі Ваш виграш ${winningSum}$.`);
             continueGame = confirm("Хочете продовжити гру?");
             if (continueGame) {
                 winningMax *= multiplier;
@@ -66,7 +66,7 @@ if (start) {
             attempt = 3;
             maximum = 5; 
             winningMax = 10; 
-            winningSum=0;
+            winningSum = 0;
         }
     }
 } else {
